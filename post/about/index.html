@@ -9,7 +9,7 @@
 <meta name="description" content="我的天堂失了火 没有神明救赎我">
 <meta name="theme-color" content="#000">
 <title>关于 | NEXUS</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1596896018019">
+<link rel="shortcut icon" href="/favicon.ico?v=1596897109076">
 <link rel="stylesheet" href="/media/css/pisces.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
@@ -582,12 +582,47 @@
   
   
   
-  <div class="bg-img">
-    <img src="\media\images\custom-bgImg.jpg" />
-  </div>
   
-  
-  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+  <div class="aplayer" id="aplayer"></div>
+  <script>
+  let musics = JSON.parse('[{"author":"NEXUS","cover":"n","lrc":" ","musicLink":"http://m10.music.126.net/20200808225558/b892e3a3b62a73a40b5f655119a09990/ymusic/4ca4/a851/3b32/34ab062346c0a50ddbf6bd2466c8043a.mp3","musicName":"NEXUS"}]');
+  let mediaMusic = [];
+  for (let i = 0; i < musics.length; i++) {
+    let item = musics[i];
+    mediaMusic.push({
+      name: item.musicName,
+      artist: item.author,
+      url: item.musicLink,
+      lrc: item.lrc,
+      cover: item.cover
+    });
+  }
+
+  const ap = new APlayer({
+      container: document.getElementById('aplayer'),
+      fixed: true,
+      lrcType: 3,
+      listFolded: false,
+      listMaxHeight: 90,
+      audio: mediaMusic
+  });
+  window.addEventListener('load', function() {
+    let postBody = document.querySelector('#post_body');
+    let hs = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
+    postBody && hs.forEach(h => {
+      let helems = postBody.querySelectorAll(h);
+      if (helems.length > 0) {
+        helems.forEach(elem => {
+          elem.id = encodeURI(elem.id);
+        })
+      }
+    })
+  })
+  </script>
+
+
   
 </div>
 <script>
@@ -1334,13 +1369,6 @@
 
 </script>
 <script src="/media/js/motion.js"></script>
-
-<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-<script>
-  var scroll = new SmoothScroll('a[href*="#"]', {
-    speed: 200
-  });
-</script>
 
 
 
