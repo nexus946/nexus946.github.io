@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nexus946.github.io</id>
     <title>NEXUS</title>
-    <updated>2020-08-08T14:45:11.226Z</updated>
+    <updated>2020-08-08T14:48:40.927Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nexus946.github.io"/>
     <link rel="self" href="https://nexus946.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://nexus946.github.io/images/avatar.png</logo>
     <icon>https://nexus946.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, NEXUS</rights>
+    <entry>
+        <title type="html"><![CDATA[资源站]]></title>
+        <id>https://nexus946.github.io/post/zi-yuan-zhan/</id>
+        <link href="https://nexus946.github.io/post/zi-yuan-zhan/">
+        </link>
+        <updated>2020-08-08T14:45:47.000Z</updated>
+        <content type="html"><![CDATA[<p>暂无内容😅</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[NEXUS的小站]]></title>
         <id>https://nexus946.github.io/post/hello-gridea/</id>
