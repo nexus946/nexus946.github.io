@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://s83p32.coding-pages.com</id>
+    <id>https://nexus946.github.io</id>
     <title>NEXUS</title>
-    <updated>2020-08-09T13:34:01.009Z</updated>
+    <updated>2020-08-09T13:56:24.901Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://s83p32.coding-pages.com"/>
-    <link rel="self" href="https://s83p32.coding-pages.com/atom.xml"/>
+    <link rel="alternate" href="https://nexus946.github.io"/>
+    <link rel="self" href="https://nexus946.github.io/atom.xml"/>
     <subtitle>NEXUS</subtitle>
-    <logo>https://s83p32.coding-pages.com/images/avatar.png</logo>
-    <icon>https://s83p32.coding-pages.com/favicon.ico</icon>
+    <logo>https://nexus946.github.io/images/avatar.png</logo>
+    <icon>https://nexus946.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, NEXUS</rights>
     <entry>
         <title type="html"><![CDATA[NEXUS的小站]]></title>
-        <id>https://s83p32.coding-pages.com/post/hello-gridea/</id>
-        <link href="https://s83p32.coding-pages.com/post/hello-gridea/">
+        <id>https://nexus946.github.io/post/hello-gridea/</id>
+        <link href="https://nexus946.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://s83p32.coding-pages.com/post-images/1596897491206.jpg" alt="" loading="lazy">😎</p>
+        <content type="html"><![CDATA[<p><img src="https://nexus946.github.io/post-images/1596897491206.jpg" alt="" loading="lazy">😎</p>
 ]]></content>
     </entry>
 </feed>
